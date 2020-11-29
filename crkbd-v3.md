@@ -1,6 +1,6 @@
 # foostan's Corne Keyboard ([crkbd v3](https://github.com/foostan/crkbd))
 
-Check the [final product](#finished)
+Check the [final product](#finished)  
 Check the [video of this build](https://youtu.be/O49hrYDCL3o)
 
 ## Check List:

@@ -1,6 +1,6 @@
 # foostan's Corne Keyboard ([crkbd v3](https://github.com/foostan/crkbd))
 
-**WARNING: LOG NOT FINISHED**
+Check the [final product](#finished)
 
 ## Check List:
 - [x] [Sort the parts](#part-list-original)
@@ -15,6 +15,7 @@
 - [x] [Solder hot-swaps](#solder-hot-swaps)
 - [x] [Solder under-glow leds](#solder-under-glow-leds)
 - [x] [Solder per-key leds](#solder-per-key-leds)
+- [x] [Mount the case](#mount-the-case)
 
 ## Part list ([Original](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/v3/buildguide_jp.md))
 
@@ -240,3 +241,20 @@ Exacly as the other leds, this leds also have polarity align as picured bellow.
 
 Result.
 ![Soldering keyleds 2](/crkbd-v3/09-soldering-keyleds-02.jpg)
+
+### Mount the case
+
+Just some screws and the build was almost finished.
+![Mount the case 1](/crkbd-v3/10-case-01.jpg)
+![Mount the case 2](/crkbd-v3/10-case-02.jpg)
+
+Adding the switches over the case.
+![Mount the case 3](/crkbd-v3/10-case-03.jpg)
+
+### Finished
+
+Some led showoff.  
+![Finished 1](/crkbd-v3/11-finished-01.gif)
+
+With the keycaps.
+![Finished 2](/crkbd-v3/11-finished-02.jpg)

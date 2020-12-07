@@ -5,6 +5,7 @@ Check the [video of this build](https://youtu.be/O49hrYDCL3o)
 
 ## Check List:
 - [x] [Sort the parts](#part-list-original)
+- [x] [Ordering the PCB](#ordering-the-pcb)
 - [x] [Install/Configure QMK](#installconfigure-qmk)
 - [x] [Compile/Flash Firmware](#compileflash-firmware)
 - [x] [Prepare the OLEDS](#prepare-oleds)
@@ -38,6 +39,13 @@ Check the [video of this build](https://youtu.be/O49hrYDCL3o)
 - 4x  [Spacers M2 10mm](https://www.aliexpress.com/item/32970573343.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA)
 - 42x [Leds SK6812-mini-E](https://www.aliexpress.com/item/4000476037223.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA)
 - 12x [Leds ws2812b](https://www.aliexpress.com/item/4000750610574.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA)
+
+## Ordering the PCB
+
+
+As you can see I pretty much uploaded the [latest cherry gerber file avalilable on foostan's repository](https://github.com/foostan/crkbd/releases) in https://jlcpcb.com and let almost all defaults settings.
+![Ordering PCB](/crkbd-v3/jlcpcb.jpg)
+_After a day I placed the order they sent me an email asking for an extra U$ 4.00, I didn't understand what happened, but I just paid it and everything worked fine._
 
 ## Firmware
 

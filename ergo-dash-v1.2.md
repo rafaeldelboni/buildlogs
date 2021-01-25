@@ -1,7 +1,7 @@
 # omkbd's ErgoDash Keyboard [No leds] ([ErgoDash v1.2](https://github.com/omkbd/ErgoDash))
 
 Check the [final product](#finished)  
-Check the [video of this build](https://youtu.be/weV0FkCVkLE)
+Check the [video of this build](https://youtu.be/weV0FkCVkLE)  
 Check the [original buildlog](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)
 
 ## Check List:

@@ -1,6 +1,7 @@
 # omkbd's ErgoDash Keyboard [No leds] ([ErgoDash v1.2](https://github.com/omkbd/ErgoDash))
 
 Check the [final product](#finished)  
+Check the [video of this build](https://youtu.be/weV0FkCVkLE)
 Check the [original buildlog](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)
 
 ## Check List:
@@ -30,8 +31,8 @@ Check the [original buildlog](https://github.com/omkbd/ErgoDash/blob/master/Doc/
 - 70x [Holy Pandas switches](https://www.aliexpress.com/item/1005001465063863.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA)
 - 2x  [Stabilizers 2u PCB Stab](https://www.aliexpress.com/item/32864774665.html?spm=a2g0s.9042311.0.0.70084c4dCbGJQc)
 - 22x [M2×5mm Screws](https://www.aliexpress.com/item/33055570766.html?spm=a2g0s.9042311.0.0.70084c4dCbGJQc)
-- 6x  [M2×5mm Screws](https://www.aliexpress.com/item/33055570766.html?spm=a2g0s.9042311.0.0.70084c4dCbGJQc)
-- 6x  [M2×8mm Spacer](https://www.aliexpress.com/item/4001231387908.html?spm=a2g0s.9042311.0.0.70084c4dCbGJQc)
+- 6x  [M2×8mm Screws](https://www.aliexpress.com/item/33055570766.html?spm=a2g0s.9042311.0.0.70084c4dCbGJQc)
+- 14x [M2×6mm Spacer](https://www.aliexpress.com/item/4001231387908.html?spm=a2g0s.9042311.0.0.70084c4dCbGJQc)
 
 ![Sorting Parts](/ergo-dash-v1.2/01-sort-parts-01.jpg)
 

@@ -1,5 +1,6 @@
 # rtitmuss's Torn Keyboard ([torn v3](https://github.com/rtitmuss/torn))
 
+Check the [video of this build](https://youtu.be/7WUTQ30Datw)  
 Check the [final product](#finished)  
 
 ## Check List:

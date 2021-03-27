@@ -305,3 +305,9 @@ Another father's artisan.
 
 I dunno if will ever user the encoders, but they look cool.
 ![Finished 5](/torn-v3/22-finished-05.jpg)
+
+My mom made me a nice carrying case for this build.
+![Finished 6](/torn-v3/22-finished-06.jpg)
+![Finished 7](/torn-v3/22-finished-07.jpg)
+![Finished 8](/torn-v3/22-finished-08.jpg)
+![Finished 9](/torn-v3/22-finished-09.jpg)

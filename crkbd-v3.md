@@ -45,7 +45,7 @@ Check the [video of this build](https://youtu.be/O49hrYDCL3o)
 
 As you can see I pretty much uploaded the [latest cherry gerber file avalilable on foostan's repository](https://github.com/foostan/crkbd/releases) in https://jlcpcb.com and let almost all defaults settings.
 ![Ordering PCB](/crkbd-v3/jlcpcb.jpg)
-_After a day I placed the order they sent me an email asking for an extra U$ 4.00, I didn't understand what happened, but I just paid it and everything worked fine._
+_After a day I placed the order they sent me an email asking for an extra U$ 4.00, ~~I didn't understand what happened, but I just paid it and everything worked fine.~~ [@Soziapath](https://github.com/Soziapath) sent me an email explaining that the extra fee may occur if the jlcpcb reviwer understand that your gerber file had two different pcb's (mirrored is still different). [More details](https://jlcpcb.com/quote/pcbOrderFaq/Different%20Design%20in%20Panel)_
 
 ## Firmware
 

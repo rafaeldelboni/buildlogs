@@ -24,7 +24,6 @@ Check the [final product](#finished)
 | PCB | 2 pieces | https://jlcpcb.com/ |
 | Top plate | 2 pieces | https://jlcpcb.com/ |
 | Bottom plate | 2 pieces | https://jlcpcb.com/ |
-| Pro Micro protection plate | 2 pieces | |
 | Pro Micro | 2 pieces | Type-C USB - https://www.aliexpress.com/item/32768308647.html |
 | TRRS Jack | 2 pieces | https://www.aliexpress.com/item/32368285821.html |
 | Tactile switch | 2 pieces | 1136-4.3 DIP Black - https://www.aliexpress.com/item/1005001629184984.html |

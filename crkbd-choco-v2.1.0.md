@@ -1,5 +1,6 @@
 # foostan's Corne Chocolate Keyboard ([crkbd v2.1.0](https://github.com/foostan/crkbd))
 
+Original Foostan's [buildlog](https://github.com/foostan/crkbd/blob/main/corne-chocolate/doc/buildguide_en.md)  
 Check the [final product](#finished)  
 
 ## Tools Used
@@ -15,7 +16,6 @@ Check the [final product](#finished)
 ![01-tools-used](/crkbd-choco-v2.1.0/01-tools-used.png)
 
 ## Part List
-[Original](https://github.com/foostan/crkbd/blob/main/corne-chocolate/doc/buildguide_en.md)
 
 ### Required
 
@@ -41,6 +41,7 @@ Check the [final product](#finished)
 | Cushion rubber | 8 pieces | https://www.aliexpress.com/item/1005002618681200.html |
 | TRS (3 pole) or TRRS (4 pole) cable | 1 piece | https://www.aliexpress.com/item/32459681560.html |
 | Micro USB Cable | 1 piece | https://www.aliexpress.com/item/4000802127824.html |
+| Round Copper Wire | 1 piece | 0.5mm - https://www.aliexpress.com/item/4000781904492.html |
 
 ### Optional
 
@@ -68,30 +69,60 @@ sudo qmk flash -kb crkbd/rev1 -km default
 ```
 
 ## Leds
-![03-leds](/crkbd-choco-v2.1.0/03-leds-01.jpg)
+I've decided to do the leds first because I thought that with less components soldered in the PCB would make easier to solder such fragile and delicate part, but the problem with this approach is that later on when I was building the other parts of the keyboard, the mechanical torsion and the heat of soldering the other components could break some led soldering or even burning them.
+
+SK6812MINI is very heat sensitive and breaks easily, you will need a soldering iron with a temperature control function and operating at a temperature of about 220°C to 270°.
+I've used 250°C for the leds and 300°C for all the rest.
+
+That said, **I really don't recommend this build** if you are planning to use leds a lot, they will eventually stop working, there are better builds that have use better leds out there.
+![03-leds](/crkbd-choco-v2.1.0/03-leds-06.jpg)
+
+### Under-glow
+Solder the part so that the black part circled below is on the bottom and the silk mark indicated by the arrow is on the top. Note that the direction changes.
 ![03-leds](/crkbd-choco-v2.1.0/03-leds-02.jpg)
 ![03-leds](/crkbd-choco-v2.1.0/03-leds-03.jpg)
 ![03-leds](/crkbd-choco-v2.1.0/03-leds-04.jpg)
+
+### Per-key
+Perform soldering so that the largest pad surrounded by a circle and the silk mark indicated by an arrow are adjacent to each other, as shown below.
 ![03-leds](/crkbd-choco-v2.1.0/03-leds-05.jpg)
-![03-leds](/crkbd-choco-v2.1.0/03-leds-06.jpg)
+
+### Testing
+I used a 3.5v font, attached the it in `VCC` and `GRD` pins and touched with the tweezers the pin `LED` (you can short this pin with `VCC` for a brief moment to trigger on the leds with a random color).
+
+Keep in mind that i don't know what I'm doing, not sure if I can recommend you doing this. **Do at your own risk.**
+![03-leds](/crkbd-choco-v2.1.0/03-leds-01.jpg)
 
 ## Diodes
+The SMD diodes are trick at first, they are pretty small and they have polarity, make sure to match the polarity with PCB, align your as picured bellow.
 ![04-diodes](/crkbd-choco-v2.1.0/04-diodes-01.jpg)
+
+To make it easier to solder, first put some solder on one of the PCB diode contacts and then with a tweezer hold the diode over the solder and heat it to stick the diode, proceed to the other diode contact and solder it normally.
 ![04-diodes](/crkbd-choco-v2.1.0/04-diodes-02.jpg)
 
 ## Kailh Hotswap
+Very similar to soldering the diodes, but with a way bigger component.
 ![05-kailh-hotswap](/crkbd-choco-v2.1.0/05-kailh-hotswap-01.jpg)
 
 ## Top Components
+An easy thru-hole solder.
 ![06-top-components](/crkbd-choco-v2.1.0/06-top-components-01.jpg)
 ![06-top-components](/crkbd-choco-v2.1.0/06-top-components-02.jpg)
 
 ## Soldering Promicro
-Or poor man's promicro sockets, since I can't find to buy the [mill max](https://splitkb.com/products/mill-max-low-profile-sockets) for a decent price.
+My poor man's promicro socket version, since I can't find to buy the [mill max](https://splitkb.com/products/mill-max-low-profile-sockets) for a decent price.
+
+I've used copper Wire 0.5mm to this, just remember to sand off the isolation layer.  
+
+I used some masking tape to help me organize the wires.
 ![07-soldering-promicro](/crkbd-choco-v2.1.0/07-soldering-promicro-01.jpg)
+Start by the corners
 ![07-soldering-promicro](/crkbd-choco-v2.1.0/07-soldering-promicro-02.jpg)
+Insert the promicro and continue adding the wires
 ![07-soldering-promicro](/crkbd-choco-v2.1.0/07-soldering-promicro-03.jpg)
+Also another benefit of using masking tape is to don't let the solder go thought the hole and "glue" with the PCB socket.
 ![07-soldering-promicro](/crkbd-choco-v2.1.0/07-soldering-promicro-04.jpg)
+You can trim off the excess of the wires
 ![07-soldering-promicro](/crkbd-choco-v2.1.0/07-soldering-promicro-05.jpg)
 
 ## Mounting OLED
@@ -106,12 +137,16 @@ Or poor man's promicro sockets, since I can't find to buy the [mill max](https:/
 ![09-all-components-soldered](/crkbd-choco-v2.1.0/09-all-components-soldered-05.jpg)
 
 ## Switchs
+I like to attach all the switchs in the PCB case grid
 ![10-switchs](/crkbd-choco-v2.1.0/10-switchs-01.jpg)
+Just because I think is faster at the end
 ![10-switchs](/crkbd-choco-v2.1.0/10-switchs-02.jpg)
 ![10-switchs](/crkbd-choco-v2.1.0/10-switchs-03.jpg)
+Always double check if all the pins of the switchs are passing through the hot-swaps
 ![10-switchs](/crkbd-choco-v2.1.0/10-switchs-04.jpg)
 
 ## Case
+Start by the top screw and then while holding the screw with your finger turn the pcbs over and attach the spacer.
 ![11-case](/crkbd-choco-v2.1.0/11-case-01.jpg)
 ![11-case](/crkbd-choco-v2.1.0/11-case-02.jpg)
 ![11-case](/crkbd-choco-v2.1.0/11-case-03.jpg)
@@ -119,8 +154,10 @@ Or poor man's promicro sockets, since I can't find to buy the [mill max](https:/
 ## Details
 
 ### Painting the side of the PCB
+I used POSCA for painting the pcb sides, you can see how it looks better painted in the keyboard of the left.
 ![12-paint-side](/crkbd-choco-v2.1.0/12-paint-side-01.jpg)
 ![12-paint-side](/crkbd-choco-v2.1.0/12-paint-side-02.jpg)
+Nice!
 ![12-paint-side](/crkbd-choco-v2.1.0/12-paint-side-03.jpg)
 
 ### Rubber foots

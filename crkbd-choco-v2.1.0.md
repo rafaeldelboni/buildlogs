@@ -8,7 +8,7 @@ Check the [final product](#finished)
 | Name | Count | Remarks |
 |:-|:-|:-|
 | Soldering Iron | 1 piece | CXG 110WT - https://www.aliexpress.com/item/33031529555.html |
-| Solder wire | 1 piece | 0.8mm - https://www.aliexpress.com/item/33023323860.html |
+| Solder wire | 1 piece | Sn63/Pb37 - 1.0mm - https://www.aliexpress.com/item/1005002646781061.html |
 | Multimeter | 1 piece | https://www.aliexpress.com/item/4000991575808.html |
 | Flux Soldering Pen | 1 piece | https://www.aliexpress.com/item/32908270559.html |
 | Tweezers | 1 piece | https://www.aliexpress.com/item/1005003632772720.html |

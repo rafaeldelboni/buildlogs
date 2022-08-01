@@ -1,8 +1,9 @@
 # pierrechevalier83's Ferris Keyboard ([ferris base v0.1](https://github.com/pierrechevalier83/ferris/tree/main/0.1/base))
 
+Check the [video of this build](https://youtu.be/0VZjXjSZSyo)  
 Check the [final product](#finished)  
 
-This build log is a little different because I bought this kit via group by, so no part list :/
+This build log is a little different because I bought this kit via group buy, so no part list :/
 
 ## Tools Used
 
@@ -16,8 +17,8 @@ This build log is a little different because I bought this kit via group by, so 
 
 ![01-tools-used](/crkbd-choco-v2.1.0/01-tools-used.png)
 
-As you can see I didn't used hot air gun for this build, if you are planning to do this build with those follow this wonderful build log:
-https://imgur.io/gallery/jYbxkxE
+As you can see I didn't used heat gun for this build, if you are planning to do this build with those follow this wonderful build log:
+https://imgur.io/gallery/jYbxkxE  
 https://imgur.com/gallery/gs19F6E
 
 ## Instructions

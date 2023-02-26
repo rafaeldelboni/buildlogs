@@ -9,6 +9,13 @@ Repository to document my builds and projects.
 - [ferris-base-v0.1](ferris-base-v0.1.md)
 - [torn-v3](torn-v3.md)
 
+## Custom QMK Layouts
+- [crkbd](https://github.com/rafaeldelboni/alphadel-crkbd-keymap)
+- [ferris](https://github.com/rafaeldelboni/alphadel-ferris-keymap)
+- [torn](https://github.com/rafaeldelboni/alphadel-torn-keymap)
+
+_I added an Github Action CI to mimic ZMK's build for those that don't want to setup QMK in their machine_
+
 ## Contributing
 If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/buildlogs/pulls) and [Issues](https://github.com/rafaeldelboni/buildlogs/issues) are highly encouraged.
 

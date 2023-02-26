@@ -1,5 +1,6 @@
 # davidphilipbarr's Choc-Spaced-Corne Keyboard ([choc-spaced-corne switch](https://github.com/davidphilipbarr/Choc-Spaced-Corne/tree/main/chocorne-switch))
 
+Check the [video of this build](https://youtu.be/SL6iO4Qg8_s)  
 Check the [final product](#finished)  
 
 ## Tools Used

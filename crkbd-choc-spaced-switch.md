@@ -113,8 +113,15 @@ In this pcb the pads are inverted on each side, always double check before solde
 inverting the wires here can damage your promicro.
 ![05-batt-02](/crkbd-choc-spaced-switch/05-batt-02.jpg)
 
-### Testing
-![06-test-progress-01 ](/crkbd-choc-spaced-switch/06-test-progress-01.jpg)
+## Flashing the firmware
+Since this project uses ZMK, I suggest follow their documentation:
+https://zmk.dev/docs/user-setup
+
+## Testing
+At this moment I had enough to setup a manual test, to check if all I did until here was ok.
+I when to [keyboardtester](https://www.keyboardtester.com) and plugged the new keyboard to the PC.
+I simulated the switch behaviour with the tweezer.
+![06-test-progress-01](/crkbd-choc-spaced-switch/06-test-progress-01.jpg)
 
 ## Switchs
 I like to attach all the switchs in the PCB before soldering

@@ -30,7 +30,7 @@ Check the [final product](#finished)
 | Batteries | 2 pieces | 3.7v 130 mah - https://www.aliexpress.com/item/4000384787808.html |
 | Diode | 42 pieces | 1N4148 T4 SOD-123 - https://www.aliexpress.com/item/32921490945.html |
 | Key switch | 42 pieces | Choc (low profile) - https://www.aliexpress.com/item/4000907409650.html |
-| Key-caps | 42 pieces | 1u 40, 1.5u 2 - https://www.aliexpress.com/item/32979973961.html |
+| Key-caps | 42 pieces | Resin Printed - https://www.thingiverse.com/thing:4862025 |
 
 ### Optional
 

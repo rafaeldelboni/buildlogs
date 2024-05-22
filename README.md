@@ -9,6 +9,7 @@ Repository to document my builds and projects.
 - [ergo-dash-v1.2](ergo-dash-v1.2.md)
 - [ferris-base-v0.1](ferris-base-v0.1.md)
 - [torn-v3](torn-v3.md)
+- [totem-v0.3](totem-v0.3.md)
 
 ## Custom QMK Layouts
 - [crkbd](https://github.com/rafaeldelboni/alphadel-crkbd-keymap)
@@ -19,6 +20,7 @@ _I added an Github Action CI to mimic ZMK's build for those that don't want to s
 
 ## Custom ZMK Layouts
 - [crkbd](https://github.com/rafaeldelboni/zmk-choc-corne)
+- [totem](https://github.com/rafaeldelboni/zmk-totem)
 
 ## Contributing
 If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/buildlogs/pulls) and [Issues](https://github.com/rafaeldelboni/buildlogs/issues) are highly encouraged.

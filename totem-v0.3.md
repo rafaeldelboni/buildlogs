@@ -1,5 +1,7 @@
 # GEIST's TOTEM Keyboard ([TOTEM](https://github.com/GEIGEIGEIST/TOTEM))
 
+Check the [final product](#finished)  
+
 ## Tools Used
 
 | Name | Count | Remarks |

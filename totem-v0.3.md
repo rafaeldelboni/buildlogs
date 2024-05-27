@@ -1,6 +1,7 @@
 # GEIST's TOTEM Keyboard ([TOTEM](https://github.com/GEIGEIGEIST/TOTEM))
 
 Check the [official build guide](https://github.com/GEIGEIGEIST/TOTEM/blob/main/docs/buildguide.md)  
+Check the [video of this build](https://youtu.be/OlH3yDg8ZMA)  
 Check the [final product](#finished)  
 
 ## Tools Used
